@@ -1,0 +1,3 @@
+#!/bin/sh
+# Autostarted by /appfs/script/start.sh when /mnt/sdcard/yy_telnet_start exists.
+/mnt/sdcard/busybox telnetd -l /bin/sh "$@"

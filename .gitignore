@@ -1,0 +1,13 @@
+# build output / firmware dumps / local secrets — never commit
+busybox/out/
+**/out/
+*.bin
+*.sqsh
+*.squashfs
+*.img
+flash_backup/
+.venv/
+__pycache__/
+*.pyc
+secrets.*
+.env
