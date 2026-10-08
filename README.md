@@ -48,7 +48,12 @@ Independently, `/appfs/script/start.sh` runs `/mnt/sdcard/telnetd` if
 
 Stock BusyBox has **no telnetd**. Prebuilt `busybox-armv5l`/`armv4l` binaries
 **SIGILL** on ARM926EJ-S (they use Thumb-2 / OABI the core doesn't implement).
-Build a **static EABI5, ARM-mode, ARMv5TE** binary:
+
+**Shortcut:** grab the prebuilt static binary from
+[Releases](../../releases/tag/busybox-v1.36.1) (`busybox-1.36.1-ak3918-armv5te-static`,
+sha256 `367d142bf8d25751e4d8c63442ee99779865a10e2073a28b28795510a3091290`) and skip to step 4.
+
+Or build a **static EABI5, ARM-mode, ARMv5TE** binary yourself:
 
 ```
 cd busybox
