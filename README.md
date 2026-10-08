@@ -6,7 +6,10 @@ No CH341A, no soldering, no case opening, no UART needed for the root itself.
 You get: root telnet over LAN, a working static BusyBox (telnetd/nc/wget/httpd),
 local **RTSP + ONVIF**, **PTZ over Tuya LAN**, and a **kill-switch for all cloud/WAN**.
 
-Tested: LSC Smart Connect 2K PTZ, SoC Anyka AK3918AV130_B, YYOS = TuyaOS 6.3.0,
+<img src="img/lsc-3225722.png" alt="LSC Smart Connect Smart Rotatable Camera 2K" width="420">
+
+**Tested on:** LSC Smart Connect *Smart Rotatable Camera 2K* (dual-band WiFi) —
+Action art. no. **LSC 3225722**. SoC Anyka AK3918AV130_B, YYOS = TuyaOS 6.3.0,
 Linux 4.4.302 (ARM926EJ-S / ARMv5TEJ), BusyBox rootfs, SPI-NOR boot.
 Other AK3918 YYOS cams very likely behave the same.
 
